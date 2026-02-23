@@ -57,9 +57,9 @@
     .tlogo { width: 26px; height: 26px; flex-shrink: 0; }
     .tlogo svg { width: 100%; height: 100%; display: block; }
     .tname { font-family: 'Barlow', sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; }
-    .col-c { padding: 52px 0 52px 40px; display: flex; flex-direction: column; justify-content: space-between; }
+    .col-c { padding: 52px 0 52px 40px; display: flex; flex-direction: column; justify-content: flex-start; }
+    .stats-block { border-top: 1px solid var(--border); margin-top: calc(0.6rem * 1.5 + 12px); }
     .stat { padding: 20px 0; border-bottom: 1px solid var(--border); }
-    .stat:first-child { border-top: 1px solid var(--border); }
     .stat-n { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 700; line-height: 1; }
     .stat-l { font-family: 'Barlow', sans-serif; font-size: 0.59rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gray); margin-top: 4px; }
     .cur { margin-top: 28px; }
@@ -224,7 +224,7 @@
       <div class="eyebrow sans">Who I Am</div>
       <h1 class="hero-name">Aliya<br/><span class="it">Husna Fayyaza</span></h1>
       <div class="hero-role sans">Student · Engineer · Builder</div>
-      <p class="hero-bio">A researcher and engineer at the intersection of data, technology, and human experience. Driven by curiosity — building tools, writing papers, and crafting digital systems that leave a lasting mark.</p>
+      <p class="hero-bio">I am an enthusiastic and dedicated undergraduate student at the School of Electrical Engineering and Informatics (STEI) of Institut Teknologi Bandung. With a strong passion for data science and analytics, I am committed to leveraging my skills and knowledge to drive insightful and impactful data-driven solutions. I am eager to contribute to innovative projects and continuously expand my expertise in the dynamic field of data science.</p>
       <div class="cta-row">
         <a href="#projects" class="btn-fill">View Work</a>
         <a href="#contact" class="btn-out">Get In Touch</a>
@@ -261,14 +261,14 @@
     </div>
     <div class="vdiv"></div>
     <div class="col-c">
-      <div>
+      <div class="stats-block">
         <div class="stat"><div class="stat-n">9+</div><div class="stat-l sans">Projects Shipped</div></div>
         <div class="stat"><div class="stat-n">4</div><div class="stat-l sans">Research Papers</div></div>
         <div class="stat"><div class="stat-n">ITB</div><div class="stat-l sans">Current University</div></div>
       </div>
       <div class="cur">
         <div class="cur-head sans">Currently</div>
-        <p class="cur-text">Studying Informatics at Institut Teknologi Bandung. Building at the intersection of AI &amp; software engineering. Open to research collaborations.</p>
+        <p class="cur-text">Studying Informatics at Institut Teknologi Bandung. Building at the intersection of AI &amp; software engineering.</p>
       </div>
     </div>
   </div>
